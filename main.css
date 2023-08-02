@@ -1123,6 +1123,9 @@
   @media (max-width: 992px) {
     body {
       padding: 0;
+      body.hide-scroll::-webkit-scrollbar {
+        display: none;
+      }
     }
     .dots {
       display: none;
@@ -1167,6 +1170,7 @@
   }
   
   @media (max-width: 768px) {
+   
     header nav {
       display: block;
       text-align: center;
@@ -1181,8 +1185,9 @@
     header .navigation-bar {
       position: fixed;
       top: 0;
-      left: -174px;
+      left: -189px;
       height: 100%;
+     
       background-color: #262526;
       overflow: hidden;
       z-index: 20;
