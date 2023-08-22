@@ -37,6 +37,11 @@
     letter-spacing: 9.4px;
     margin: 0 0 15px;
   }
+
+  .logotextual {
+    width: 200px;
+    /*height: auto;*/
+  }
   p {
     color: #515151;
     line-height: 27px;
@@ -835,6 +840,10 @@
   .reservation .text .fa-asterisk {
     /*color: #9a9998;*/
     color:deepskyblue;
+  }
+
+  .logotextual1 {
+    width: 38%;
   }
   .about-us .image-container,
   .reservation .image-container {
